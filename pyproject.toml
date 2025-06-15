@@ -1,0 +1,11 @@
+[project]
+name = "snmp-mac-search"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "pysnmp>=7.1.20",
+    "snmpclitools>=0.6.1",
+    "uvicorn>=0.34.3",
+]
